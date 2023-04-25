@@ -49,6 +49,10 @@ Ticapsoriginal website sitemaps checker score overview based on sitemaps
 <pre><code>pip install advertools
 </code></pre>
 
+## Install urllib parsing url data: 
+<pre><code>pip install urllib3
+</code></pre>
+
 ## Install bs4 to access BeautilSoup library: 
 <pre><code>pip install bs4
 </code></pre>
