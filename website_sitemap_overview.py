@@ -193,5 +193,5 @@ webscores = [totallinkbuttons,
 plt.figure(figsize=(10, 5))
 plt.plot(totaldivs)
 plt.bar(websitemetrics, webscores)
-plt.suptitle('WEBSITE OVERVIEW ')
+plt.suptitle('WEBSITE OVERVIEW SCORES')
 plt.show()
