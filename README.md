@@ -1,9 +1,9 @@
 # Ticapsoriginal website score overview
-Ticapsoriginal website sitemaps checker score overview 
+Ticapsoriginal website sitemaps checker score overview based on sitemaps
 
 ## scan large sitemaps 
 
-## plotting charts with 10 metrics :
+## plotting chart with 10 domain metrics :
 
 * crawling and show total of linkbuttons to hrefs 
 * crawling and show total of images 
@@ -63,7 +63,7 @@ Ticapsoriginal website sitemaps checker score overview
 <pre><code> python website_sitemap_overview.py
 </code></pre>
 
-## Result ( 10 url large sitemap metrics ):
+## Result ( 10 domain large sitemap metrics ):
 
 ![](https://ticapsoriginal.com/static/websiteoverview.png)
 
