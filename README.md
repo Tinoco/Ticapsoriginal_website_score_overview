@@ -63,7 +63,7 @@ Ticapsoriginal website sitemaps checker score overview
 <pre><code> python website_sitemap_overview.py
 </code></pre>
 
-## Result ( 10 url large sitemap metrics )
+## Result ( 10 url large sitemap metrics ):
 
 ![](https://ticapsoriginal.com/static/websiteoverview.png)
 
