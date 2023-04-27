@@ -7,9 +7,6 @@ import requests
 # IMPORT URLIB TO PARSE URL DATA
 from urllib.parse import quote
 
-# IMPORT ADVERTOOLS TO READ LARGE SITEMAPS
-import advertools as adv
-
 # IMPORT MATPLOT TO PLOTTING CHART
 import matplotlib.pyplot as plt
 
@@ -21,16 +18,16 @@ global tagmanager
 tagmanager = {'a': 0, 'img': 0, 'div': 0, 'section': 0, 'meta': 0,
               'link': 0, 'p': 0, 'button': 0, 'script': 0, 'h2': 0}
 
-# INDEXING YOUR LARGE SITEMAPS ( input your site map url )
-sitemap = adv.sitemap_to_df("https://ticapsoriginal.com/static/sitemaps2.xml")
-
-# TYPE CASTING URL TO LIST
-urls = sitemap["loc"].to_list()
+sitemap = "https://ticapsoriginal.com/static/sitemaps2.xml"
 
 
 # FUNCRION TO MAKE REQUEST
 def get_code(url) -> requests.Response:
     return requests.get(url)
+
+
+urll = []
+urll += BeautifulSoup((get_code(sitemap)).text, 'html.parser').find_all('loc')
 
 
 # UPTADE TAGMANAGER
@@ -39,9 +36,9 @@ def updatetagmanager(soup, tag):
 
 
 # EACH URL WALKING
-for url in tqdm(urls):
+for url in tqdm(urll):
     print(url)
-    urlg = (get_code(url))
+    urlg = (get_code(str(url).replace("<loc>", " ").replace("</loc>", " ")))
     soup = BeautifulSoup(urlg.text, 'html.parser')
     for item in tagmanager:
         updatetagmanager(soup, item)
