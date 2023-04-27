@@ -35,12 +35,7 @@ def get_code(url) -> requests.Response:
 
 # UPTADE TAGMANAGER
 def updatetagmanager(soup, tag):
-    totalcounter = 0
-    counter = 0
-    for link in soup.find_all(tag):
-        counter += 1
-    totalcounter += counter
-    tagmanager[tag] += totalcounter
+    tagmanager[tag] += (len(soup.find_all(tag)))
 
 
 # EACH URL WALKING
