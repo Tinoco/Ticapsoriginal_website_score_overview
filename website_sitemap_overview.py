@@ -62,16 +62,7 @@ websitemetrics = ['linkbuttons ',
                   'buttons ',
                   'scripts ',
                   'h2 ']
-webscores = [tagmanager['a'],
-             tagmanager['img'],
-             tagmanager['div'],
-             tagmanager['section'],
-             tagmanager['meta'],
-             tagmanager['link'],
-             tagmanager['p'],
-             tagmanager['button'],
-             tagmanager['script'],
-             tagmanager['h2']]
+webscores = list(tagmanager.values())
 
 # PLOTTING WEBSITE SITEMAPS SCORE CHART
 plt.figure(figsize=(10, 5))
