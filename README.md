@@ -67,9 +67,22 @@ Ticapsoriginal website sitemaps checker score overview based on sitemaps
 
 ![](https://ticapsoriginal.com/static/websiteoverview.png)
 
+## to see full aplication unit test:
+<pre><code> python tests.py
+</code></pre>
+
+## to make behave test parse time of sitemaps Install behave and run behave :
+<pre><code> pip install behave
+</code></pre>
+<pre><code> behave
+</code></pre>
+
+
 ## quality:
 * [`100% pycodestyle coverage`](https://pypi.org/project/pycodestyle/)
 
 * [`0% code plagiarism detected`](https://github.com/blingenf/copydetect)
 
+* [`behave`](https://behave.readthedocs.io/en/stable/) tests averange time parse sitemaps to text time
 
+* full application unit test
