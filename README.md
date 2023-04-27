@@ -83,6 +83,6 @@ Ticapsoriginal website sitemaps checker score overview based on sitemaps
 
 * [`0% code plagiarism detected`](https://github.com/blingenf/copydetect)
 
-* [`behave`](https://behave.readthedocs.io/en/stable/) tests averange time parse sitemaps to text time
+* [`behave`](https://behave.readthedocs.io/en/stable/) tests context averange time get sitemaps code and parse to text time
 
-* full application unit test
+* full application [`unit test`](https://github.com/Tinoco/Ticapsoriginal_website_score_overview/blob/main/tests.py)
