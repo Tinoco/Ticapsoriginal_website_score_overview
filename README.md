@@ -86,3 +86,6 @@ Ticapsoriginal website sitemaps checker score overview based on sitemaps
 * [`behave`](https://behave.readthedocs.io/en/stable/) tests context averange time get sitemaps code and parse to text time
 
 * full application [`unit test`](https://github.com/Tinoco/Ticapsoriginal_website_score_overview/blob/main/tests.py)
+
+## about:
+* code and resource used in [`Ticapsoriginal`](https://ticapsoriginal.com)
