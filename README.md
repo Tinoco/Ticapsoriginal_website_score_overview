@@ -33,6 +33,10 @@ Ticapsoriginal website sitemaps checker score overview based on sitemaps
 <pre><code>cd venv
 </code></pre>
 
+## Install tkinter lib to see gui: 
+<pre><code> sudo apt-get install python3-tk
+</code></pre>
+
 ## Install tqdm to see progress bar: 
 <pre><code>pip install tqdm
 </code></pre>
